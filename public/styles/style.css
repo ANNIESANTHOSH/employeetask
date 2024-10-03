@@ -1,0 +1,27 @@
+body {
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.card {
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.hover-shadow {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* Optional: Navbar styling */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Adjust card height */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure the buttons are at the bottom */
+}
